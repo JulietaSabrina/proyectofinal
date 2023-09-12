@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Redes {
+  width: 100%;
+  display: flex;
+  color: rgb(243, 214, 214);
+  list-style: none;
+  justify-content: center;
+}
+.Redes .icono-redes {
+  margin-right: 10px;
+}
+
+.BandaNegra {
+  background-color: rgb(216, 125, 149);
+}
+
+main {
+  background-color: rgb(165, 44, 77);
+  display: flex;
+  flex-direction: column;
+}
+main h1 {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+main .FotoProfes {
+  width: 250px;
+  height: 250px;
+}
+main .Profesores {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+main .titulo-horarios {
+  background-color: pink;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2rem auto;
+  text-align: center;
+}
+main .textoNosotros {
+  padding: 40px;
+}
+main .infoUl li {
+  text-align: center;
+  list-style: none;
+}
+main .mainContacto {
+  padding: 40px;
+}
+main .card-group {
+  padding: 30px;
+  margin: 30px;
+}
+main .centrar-titulo {
+  display: flex;
+  justify-content: center;
+}
+main .horarios {
+  margin: 2rem;
+  transition: margin 0.5s;
+}
+main p {
+  text-align: center;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .fondoCeleste {
+  background-color: rgb(165, 44, 77);
+  transition: background-color 0.5s;
+}
+main .bg-pink {
+  background-color: pink;
+}
+
+.footer {
+  background-color: rgb(140, 26, 26);
+  padding-bottom: 3rem;
+}
+.footer p {
+  color: pink;
+  font-size: 1rem;
+}
+.footer .derechos {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  main h1 {
+    gap: 20px;
+  }
+  main .FotoProfes {
+    width: 150px;
+    height: 150px;
+  }
+  main .Profesores {
+    margin: 15px;
+  }
+  main .titulo-horarios {
+    margin: 1rem auto;
+  }
+  main .textoNosotros {
+    padding: 20px;
+  }
+  main .mainContacto {
+    padding: 20px;
+  }
+  main .card-group {
+    padding: 15px;
+  }
+  main .horarios {
+    margin: 1rem;
+  }
+  main p {
+    font-size: 20px;
+  }
+  main .fondoCeleste {
+    background-color: rgb(165, 44, 77);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

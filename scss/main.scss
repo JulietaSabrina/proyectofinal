@@ -1,0 +1,165 @@
+// Variables
+$color-background-header: rgb(216, 125, 149);
+$color-background-main: rgb(165, 44, 77);
+$color-text-main: rgb(243, 214, 214);
+$color-background-footer: rgb(140, 26, 26);
+$color-text-footer: pink;
+
+// Estilos generales
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// HEADER
+.Redes {
+  width: 100%;
+  display: flex;
+  color: $color-text-main;
+  list-style: none;
+  justify-content: center;
+
+  .icono-redes {
+    margin-right: 10px;
+  }
+}
+
+.BandaNegra {
+  background-color: $color-background-header;
+}
+
+main {
+  background-color: $color-background-main;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .FotoProfes {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Profesores {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    flex-wrap: wrap;
+  }
+
+  .titulo-horarios {
+    background-color: pink;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .textoNosotros {
+    padding: 40px;
+  }
+
+  .infoUl li {
+    text-align: center;
+    list-style: none;
+  }
+
+  .mainContacto {
+    padding: 40px;
+  }
+
+  .card-group {
+    padding: 30px;
+    margin: 30px;
+  }
+  
+
+  .centrar-titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .horarios {
+    margin: 2rem;
+    transition: margin 0.5s; 
+  }
+
+  p {
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .fondoCeleste {
+    background-color: $color-background-main;
+    transition: background-color 0.5s;
+  }
+
+  .bg-pink {
+    background-color: pink;
+  }
+}
+
+// FOOTER
+.footer {
+  background-color: $color-background-footer;
+  padding-bottom: 3rem;
+
+  p {
+    color: $color-text-footer;
+    font-size: 1rem;
+  }
+  .derechos {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  main {
+    h1 {
+      gap: 20px;
+    }
+
+    .FotoProfes {
+      width: 150px;
+      height: 150px;
+    }
+
+    .Profesores {
+      margin: 15px;
+    }
+
+    .titulo-horarios {
+      margin: 1rem auto;
+    }
+
+    .textoNosotros {
+      padding: 20px;
+    }
+
+    .mainContacto {
+      padding: 20px;
+    }
+
+    .card-group {
+      padding: 15px;
+    }
+
+    .horarios {
+      margin: 1rem;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .fondoCeleste {
+      background-color: $color-background-main;
+    }
+  }
+}
